@@ -96,7 +96,7 @@ pipeline {
             steps {
                 script {
                     echo " .... Limpiando archivos temporales"
-                    sh "ssh sistemas@192.168.188.150 'sudo rm -rf ${tempFilesPath}/*'"
+                    sh "ssh sistemas@192.168.188.150 'sudo rm -rf ${tempFilesPath}*'"
                 }
             }
         }
