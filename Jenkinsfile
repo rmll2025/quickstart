@@ -1,5 +1,5 @@
 // Variables globales
-def projectPath = 'quickstart/kitchensink'
+def projectPath = 'kitchensink'
 def deploymentPath = '/opt/wildfly/wildfly-38.0.1.Final/standalone/deployments/'
 def tempFilesPath = '/opt/wildfly/wildfly-38.0.1.Final/standalone/tmp/'
 def oldFilesPath = '/opt/wildfly/wildfly-38.0.1.Final/standalone/'
